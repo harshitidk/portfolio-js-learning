@@ -1,4 +1,21 @@
 body 
 {
-    background-color: #FFF7F7;
+    background-color: #ffffff;
+    font-family: 'Indutrial';
+}
+
+.box2
+{
+    position: relative;
+    display: flex;
+
+    &-line1
+    {
+        display: flex;
+
+        &-1
+        {
+            display: flex;
+        }
+    }
 }
