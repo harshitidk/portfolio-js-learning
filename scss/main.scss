@@ -1,0 +1,26 @@
+body
+{
+    background-color: #FFF7F7;
+    padding: 10px 20px;
+}
+
+.header 
+{
+    padding: 0px 10px;
+}
+
+.menu 
+{
+
+    &-line
+    {
+        display: flex;
+
+        &-item
+        {
+            font-size: 24px;
+            padding: 4px 12px;
+        }
+
+    }
+}
