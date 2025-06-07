@@ -1,16 +1,35 @@
 body {
   background-color: #FFF7F7;
   padding: 10px 20px;
+  font-family: "PP Editorial New";
+  font-weight: 200;
+  letter-spacing: 0.2px;
 }
 
 .header {
   padding: 0px 10px;
 }
 
+.menu {
+  font-weight: 200;
+}
 .menu-line {
   display: flex;
 }
 .menu-line-item {
   font-size: 24px;
   padding: 4px 12px;
+}
+
+.main-1-heya {
+  display: flex;
+}
+
+span {
+  color: red;
+}
+
+.active {
+  font-weight: 600;
+  color: #F40505;
 }/*# sourceMappingURL=main.css.map */

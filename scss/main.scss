@@ -1,7 +1,12 @@
+
+
 body
 {
     background-color: #FFF7F7;
     padding: 10px 20px;
+    font-family: "PP Editorial New";
+    font-weight: 200;
+    letter-spacing: .2px;
 }
 
 .header 
@@ -11,6 +16,7 @@ body
 
 .menu 
 {
+    font-weight: 200;
 
     &-line
     {
@@ -23,4 +29,26 @@ body
         }
 
     }
+}
+
+.main
+{
+    &-1
+    {
+        &-heya
+        {
+            display: flex;
+        }
+    }
+}
+
+span
+{
+    color: red;
+}
+
+.active 
+{
+    font-weight: 600;
+    color: #F40505;
 }
