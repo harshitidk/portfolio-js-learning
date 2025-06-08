@@ -1,3 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@font-face {
+  font-family: "PP Editorial New";
+  src: url("../assets/fonts/PPEditorialNew-Ultralight.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PP Editorial New";
+  src: url("../assets/fonts/PPEditorialNew-UltralightItalic.otf") format("opentype");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: "PP Editorial New";
+  src: url("../assets/fonts/PPEditorialNew-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PP Editorial New";
+  src: url("../assets/fonts/PPEditorialNew-Italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "PP Editorial New";
+  src: url("../assets/fonts/PPEditorialNew-Ultrabold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PP Editorial New";
+  src: url("../assets/fonts/PPEditorialNew-UltraboldItalic.otf") format("opentype");
+  font-weight: 800;
+  font-style: italic;
+}
 body {
   background-color: #FFF7F7;
   padding: 10px 20px;
@@ -7,7 +44,8 @@ body {
 }
 
 .header {
-  padding: 0px 10px;
+  padding: 0px 45px;
+  padding-top: 20px;
 }
 
 .menu {
@@ -15,18 +53,59 @@ body {
 }
 .menu-line {
   display: flex;
+  padding-left: 35px;
 }
 .menu-line-item {
   font-size: 24px;
   padding: 4px 12px;
+  transition: color 0.3s ease, font-weight 0.3s ease;
+}
+.menu-line-item:hover {
+  font-weight: 600;
+  color: #F40505;
 }
 
+.main {
+  margin-top: 20px;
+  padding-left: 10px;
+}
+.main-1 {
+  padding-left: 40px;
+}
+.main-1-text {
+  padding-top: 30px;
+  font-size: 45px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: #E6DEDE;
+  line-height: 40px;
+}
 .main-1-heya {
+  margin-top: 10px;
   display: flex;
+  font-size: 90px;
+  font-weight: 400;
+  color: #E97318;
+}
+.main-1-para {
+  display: flex;
+  font-family: "montserrat";
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 140%;
+}
+.main-1-para-1 {
+  width: 250px;
+  text-align: right;
+  position: relative;
+  top: 100px;
+}
+.main-1-para-2 {
+  width: 250px;
 }
 
 span {
-  color: red;
+  color: #F40505;
 }
 
 .active {

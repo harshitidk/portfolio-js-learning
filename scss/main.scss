@@ -1,4 +1,6 @@
-
+@import "fonts";
+@import "colors";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body
 {
@@ -11,7 +13,8 @@ body
 
 .header 
 {
-    padding: 0px 10px;
+    padding: 0px 45px;
+    padding-top: 20px;
 }
 
 .menu 
@@ -21,11 +24,19 @@ body
     &-line
     {
         display: flex;
+        padding-left: 35px;
 
         &-item
         {
             font-size: 24px;
             padding: 4px 12px;
+            transition: color 0.3s ease, font-weight 0.3s ease;
+
+            &:hover 
+            {
+                font-weight: 600;
+                color: $color2;
+            }
         }
 
     }
@@ -33,22 +44,64 @@ body
 
 .main
 {
+    margin-top: 20px;
+    padding-left: 10px;
+
     &-1
     {
+        padding-left: 40px;
+
+        &-text
+        {
+            padding-top: 30px;
+            font-size: 45px;
+            font-family: "Montserrat";
+            font-weight: 600;
+            color: $grey1;
+            line-height: 40px;
+        }
+
         &-heya
         {
+            margin-top: 10px;
             display: flex;
+            font-size: 90px;
+            font-weight: 400;
+            color: $color1;
+        }
+
+        &-para
+        {
+            display: flex;
+            font-family: 'montserrat';
+            font-weight: 500;
+            font-size: 10px;
+            line-height: 140%;
+
+            &-1
+            {
+                width: 250px;
+                text-align: right;
+                position: relative;
+                top: 100px;
+            }
+
+            &-2
+            {
+                width: 250px;
+            }
         }
     }
 }
 
 span
 {
-    color: red;
+    color: $color2;
 }
 
 .active 
 {
     font-weight: 600;
-    color: #F40505;
+    color: $color2;
 }
+
