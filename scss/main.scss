@@ -127,11 +127,11 @@ body
 
         &-image
         {
-            position: relative;
-            left: 220px;
+            position: absolute;
+            right: 0px;
             object-fit: contain;
-            height: 100%;
-            bottom: -40px;
+            height: auto;
+            bottom: 0px;
         }
     }
 }

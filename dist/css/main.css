@@ -133,12 +133,12 @@ body {
   left: 320px;
 }
 .main-2-image {
-  position: relative;
-  left: 220px;
+  position: absolute;
+  right: 0px;
   -o-object-fit: contain;
      object-fit: contain;
-  height: 100%;
-  bottom: -40px;
+  height: auto;
+  bottom: 0px;
 }
 
 span {
